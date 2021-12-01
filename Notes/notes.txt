@@ -3,3 +3,13 @@ Fiz todas as requisições get no Insomnia para verificar o que é necessário.
 Instalei o Axios para fazer as requisições no app.
 Instalei a Ant React Designer lib, como media kit.
 Modifiquei o arquivo Readme.md
+
+
+--------------------------------------------------------------------------------
+Mini script
+
+Criar arquivo para consumo da API.
+Criar uma tela de home, para a escolha das opções, ou um menu na parte superior da tela.
+Criar tela de usuários
+Criar tela de Empresas e Unidades na mesma tela, nao existem muitos dados nesse caso.
+Criar tela para ativos, onde serão exibidos todos os dados, e os graficos para demonstrar a saude deles.
