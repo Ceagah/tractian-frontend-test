@@ -1,0 +1,3 @@
+Adicionei a lib highcharts.
+Coloquei o link da api no insomnia [https://my-json-server.typicode.com/tractian/fake-api/assets]
+Verifiquei os dados que retornaram da api.
