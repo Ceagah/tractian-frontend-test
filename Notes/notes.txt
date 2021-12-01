@@ -1,3 +1,5 @@
 Adicionei a lib highcharts.
-Coloquei o link da api no insomnia [https://my-json-server.typicode.com/tractian/fake-api/assets]
-Verifiquei os dados que retornaram da api.
+Fiz todas as requisições get no Insomnia para verificar o que é necessário.
+Instalei o Axios para fazer as requisições no app.
+Instalei a Ant React Designer lib, como media kit.
+Modifiquei o arquivo Readme.md
