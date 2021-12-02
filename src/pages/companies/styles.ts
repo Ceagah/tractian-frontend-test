@@ -27,7 +27,7 @@ export const Content = styled.main`
   width: 90vw;
   height: 85vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;

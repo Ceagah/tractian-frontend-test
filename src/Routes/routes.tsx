@@ -7,6 +7,7 @@ import {
 // Elements imports
 import Home from '../pages/home/';
 import Users from '../pages/users/';
+import Companies from '../pages/companies/';
 
 const Router = () => {
   return (
@@ -15,7 +16,7 @@ const Router = () => {
         <Route path="/" element={<Home />} />
         <Route path="/users" element={<Users />} />
         <Route path="/users/:id" element={<Users />} />
-        <Route path="/companies" element={<h1>Companies</h1>} />
+        <Route path="/companies" element={<Companies />} />
         <Route path="/actives" element={<h1>Actives</h1>} />
       </Routes>
     </BrowserRouter>

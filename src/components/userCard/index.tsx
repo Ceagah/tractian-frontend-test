@@ -11,10 +11,10 @@ interface User {
 
 const userCard = (user : User )=> {
   return(
-    <Container title={user.name} extra={<a href="#">More</a>}>
-        <CardText>{user.email}</CardText>
-        <CardText>{user.unitId}</CardText>
-      <CardText>{user.companyId}</CardText>
+    <Container title={user.name} >
+        <CardText>Email : {user.email}</CardText>
+        <CardText>Unit Id: {user.unitId}</CardText>
+        <CardText>Company Id: {user.companyId}</CardText>
       </Container>
   );
 }

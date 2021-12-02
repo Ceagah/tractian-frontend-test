@@ -13,8 +13,9 @@ interface User {
   companyId: number;
 }
 
+
 const Users: React.FC = () => {
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState <User[]>([]);
 
   useEffect(() => {
     Api.get('/users').then(response => {
@@ -25,12 +26,12 @@ const Users: React.FC = () => {
   return (
     <Container>
       <TitleContainer>
-        <Title> Tractian Front End Test</Title>
-      </TitleContainer>
+        <Title> Users </Title>
+      </TitleContainer> 
       <Menu />
       <Content>
         {users.map(user => (
-          <UserCard key={user.id} user={user} />
+          <UserCard key={user.id} id={user.id} name={user.name} email={user.email} unitId={user.unitId} companyId={user.companyId} />
         ))}
       </Content>
     </Container>
