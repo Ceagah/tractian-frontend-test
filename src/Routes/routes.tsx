@@ -8,6 +8,7 @@ import {
 import Home from '../pages/home/';
 import Users from '../pages/users/';
 import Companies from '../pages/companies/';
+import Actives from '../pages/actives/';
 
 const Router = () => {
   return (
@@ -17,7 +18,7 @@ const Router = () => {
         <Route path="/users" element={<Users />} />
         <Route path="/users/:id" element={<Users />} />
         <Route path="/companies" element={<Companies />} />
-        <Route path="/actives" element={<h1>Actives</h1>} />
+        <Route path="/actives" element={<Actives />} />
       </Routes>
     </BrowserRouter>
   )
